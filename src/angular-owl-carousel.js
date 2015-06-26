@@ -115,7 +115,7 @@
                     for (var i in newItems) {
                         $transclude(function (clone, scope) {
                             scope.item = newItems[i];
-                            $element.append(clone[1]);
+                            $element.append(clone[0]);
                         });
                     }
 
