@@ -144,7 +144,7 @@
                     }
 
                     // if last page
-                    if (event.page.size * event.item.index >= event.item.count) {
+                    if (event.page.size + event.item.index >= event.item.count) {
                         $element.find('.owl-controls .owl-nav .owl-next').hide();
                     }
 
