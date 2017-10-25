@@ -1,0 +1,11 @@
+{
+  "name": "angular-owl-carousel",
+  "version": "0.2.10",
+  "description": "This directive allows you to back a Owl Carousel with data from an Angular controller.",
+  "main": "src/angular-owl-carousel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
